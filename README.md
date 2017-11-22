@@ -18,7 +18,17 @@ pip install -r requirements.txt
 
 #### Usage
 ```
-python ./main.py -u username -a https://mydomain.comjira -j assignee=admin
+python ./main.py -u username -a https://mydomain.com/jira -j assignee=admin
+```
+
+#### Sample output
+```
+----------TECH-4505------------
+<JIRA Issue: key=u'TECH-4505', id=u'193407'>
+u'No Logging available for all environments'
+----------EKW-11420------------
+<JIRA Issue: key=u'EKW-11420', id=u'245100'>
+u'URL redirection for Stash REST API calls fail unauthorized'
 ```
 
 ## Caveats
