@@ -17,7 +17,7 @@ cd /work
 pip install -r requirements.txt
 ```
 
-#### Usage
+## Usage
 ```
 python ./main.py -u username -a https://mydomain.com/jira -j assignee=admin
 ```
