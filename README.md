@@ -5,6 +5,7 @@ Get jira issue data via jira-python
 #### Using Docker
 ```
 docker run -it -v $PWD:/work python:2.7.14 bash
+pip install -r requirements.txt
 cd /work
 ```
 
@@ -32,4 +33,4 @@ u'URL redirection for Stash REST API calls fail unauthorized'
 ```
 
 ## Caveats
-* Some characters, like `@` must be escaped in JQL queries.
+* Some characters, like `@` must be escaped in JQL queries -> `\\u0040`
